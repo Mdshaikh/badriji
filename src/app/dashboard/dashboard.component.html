@@ -1,0 +1,249 @@
+<div fxLayout="row wrap">
+<div fxFlex.gt-sm="25" fxFlex.gt-xs="50" fxFlex="100">
+    <mat-card class="card-widget mat-teal">
+        <div mat-card-widget>
+            <div mat-card-float-icon>
+            <mat-icon>local_offer</mat-icon>
+            </div>
+            <div class="pl-0">
+            <h2 mat-card-widget-title>103</h2>
+            <p>New Orders</p>
+            </div>
+        </div>
+    </mat-card>
+</div>
+<div fxFlex.gt-sm="25" fxFlex.gt-xs="50" fxFlex="100">
+    <mat-card class="card-widget mat-teal cus">
+        <div mat-card-widget>
+            <div mat-card-float-icon class="ii">
+            <mat-icon>local_offer</mat-icon>
+            </div>
+            <div class="pl-0">
+            <h2 mat-card-widget-title>103</h2>
+            <p>Customers</p>
+            </div>
+        </div>
+    </mat-card>
+ </div>
+<div fxFlex.gt-sm="25" fxFlex.gt-xs="50" fxFlex="100">
+    <mat-card class="card-widget mat-teal cus1">
+        <div mat-card-widget>
+            <div mat-card-float-icon>
+            <mat-icon>local_offer</mat-icon>
+            </div>
+            <div class="pl-0">
+            <h2 mat-card-widget-title>103</h2>
+            <p>Wallets</p>
+            </div>
+        </div>
+    </mat-card>
+ </div>
+ <div fxFlex.gt-sm="25" fxFlex.gt-xs="50" fxFlex="100">
+    <mat-card class="card-widget mat-teal cus2">
+        <div mat-card-widget>
+            <div mat-card-float-icon>
+            <mat-icon>local_offer</mat-icon>
+            </div>
+            <div class="pl-0">
+            <h2 mat-card-widget-title>103</h2>
+            <p>$111111 USD</p>
+            </div>
+        </div>
+    </mat-card>
+ </div>
+<div fxFlex.gt-sm="50%" fxFlex="100">
+    <mat-card>
+        <mat-card-title>RECENT PAYMENTS  <button mat-mini-fab color="primary" class="logo">All</button></mat-card-title> 
+        <hr>
+        <mat-list>
+        <ng-template let-item let-last="last" ngFor [ngForOf]="messages">
+            <mat-list-item>
+            <img mat-list-avatar src="{{item.photo}}" alt="">
+            <h3 matLine>Name: {{item.name}} </h3>
+            <p matLine>Cost :{{item.Cost}}  </p>
+            <p matLine>Currency :{{item.Currency}}  </p>
+            <p matLine>Payment By :{{item.Payment}}  </p>
+            <p matLine>Payment For :{{item.PaymentFor}}  </p>
+            <p matLine>Description :{{item.Description}}  </p>
+            <p matLine>Date :{{item.Date}}  </p>
+
+            </mat-list-item>
+        </ng-template>
+        </mat-list>
+    </mat-card>
+ </div>
+ <!-- -----This is Right Side Content----- -->
+
+<div fxFlex.gt-sm="50%" fxFlex="100">
+        <mat-card>
+            <mat-card-title>RECENT CUSTOMERS  <button mat-mini-fab color="primary" class="logo">All</button></mat-card-title> 
+            <hr>
+            <div fxLayout="row wrap">
+                    
+                    
+    <div fxFlex.gt-sm="50%" fxFlex.gt-xs="50" fxFlex="100">
+            <mat-card>
+                <mat-card-content class="text-xs-center">
+                    <div fxLayout="row"  fxLayoutAlign="center center" class="mt-1">
+                    <div fxFlex>
+                        <button mat-icon-button>
+                        <mat-icon>email</mat-icon>
+                        </button>
+                    </div>
+                    <div fxFlex>
+                        <img src="assets/images/face1.jpg" class="radius-circle">
+                    </div>
+                    <div fxFlex>
+                        <button mat-icon-button>
+                        <mat-icon>phone</mat-icon>
+                        </button>
+                    </div>
+                    </div>
+                    <p class="mb-1">
+                    <a href="" class="block text-lg">Michael Obrien</a>
+                    <span class="mat-text-muted">London, UK</span>
+                    </p>
+            
+                    <div fxLayout="row wrap" class="mt-1 text-uppercase">
+                    <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">89</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Photos</p>
+                    </div>
+                    <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">354</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Followers</p>
+                    </div>
+                    <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">945</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Following</p>
+                    </div>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+    </div>
+
+    <div fxFlex.gt-sm="50%" fxFlex.gt-xs="50" fxFlex="100">
+        <mat-card>
+            <mat-card-content class="text-xs-center">
+            <div fxLayout="row"  fxLayoutAlign="center center" class="mt-1">
+                <div fxFlex>
+                <button mat-icon-button>
+                    <mat-icon>email</mat-icon>
+                </button>
+                </div>
+                <div fxFlex>
+                <img src="assets/images/face1.jpg" class="radius-circle">
+                </div>
+                <div fxFlex>
+                <button mat-icon-button>
+                    <mat-icon>phone</mat-icon>
+                </button>
+                </div>
+            </div>
+            <p class="mb-1">
+                <a href="" class="block text-lg">Michael Obrien</a>
+                <span class="mat-text-muted">London, UK</span>
+            </p>
+    
+            <div fxLayout="row wrap" class="mt-1 text-uppercase">
+                <div fxFlex="33.33%">
+                <h2 class="mt-0 mb-0">89</h2>
+                <p class="mt-0 mb-0 text-md mat-text-muted">Photos</p>
+                </div>
+                <div fxFlex="33.33%">
+                <h2 class="mt-0 mb-0">354</h2>
+                <p class="mt-0 mb-0 text-md mat-text-muted">Followers</p>
+                </div>
+                <div fxFlex="33.33%">
+                <h2 class="mt-0 mb-0">945</h2>
+                <p class="mt-0 mb-0 text-md mat-text-muted">Following</p>
+                </div>
+            </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div fxFlex.gt-sm="50%" fxFlex.gt-xs="50" fxFlex="100">
+        <mat-card>
+            <mat-card-content class="text-xs-center">
+                <div fxLayout="row"  fxLayoutAlign="center center" class="mt-1">
+                    <div fxFlex>
+                    <button mat-icon-button>
+                        <mat-icon>email</mat-icon>
+                    </button>
+                    </div>
+                    <div fxFlex>
+                    <img src="assets/images/face1.jpg" class="radius-circle">
+                    </div>
+                    <div fxFlex>
+                    <button mat-icon-button>
+                        <mat-icon>phone</mat-icon>
+                    </button>
+                    </div>
+                </div>
+            <p class="mb-1">
+                <a href="" class="block text-lg">Michael Obrien</a>
+                <span class="mat-text-muted">London, UK</span>
+            </p>
+
+                    <div fxLayout="row wrap" class="mt-1 text-uppercase">
+                        <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">89</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Photos</p>
+                        </div>
+                        <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">354</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Followers</p>
+                        </div>
+                        <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">945</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Following</p>
+                        </div>
+                    </div>
+              </mat-card-content>
+        </mat-card>
+    </div>
+                              <!-- ---- -->
+     <div fxFlex.gt-sm="50%" fxFlex.gt-xs="50" fxFlex="100">
+            <mat-card>
+                <mat-card-content class="text-xs-center">
+                    <div fxLayout="row"  fxLayoutAlign="center center" class="mt-1">
+                    <div fxFlex>
+                        <button mat-icon-button>
+                        <mat-icon>email</mat-icon>
+                        </button>
+                    </div>
+                    <div fxFlex>
+                        <img src="assets/images/face1.jpg" class="radius-circle">
+                    </div>
+                    <div fxFlex>
+                        <button mat-icon-button>
+                        <mat-icon>phone</mat-icon>
+                        </button>
+                    </div>
+                    </div>
+                    <p class="mb-1">
+                    <a href="" class="block text-lg">Michael Obrien</a>
+                    <span class="mat-text-muted">London, UK</span>
+                    </p>
+            
+                    <div fxLayout="row wrap" class="mt-1 text-uppercase">
+                    <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">89</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Photos</p>
+                    </div>
+                    <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">354</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Followers</p>
+                    </div>
+                    <div fxFlex="33.33%">
+                        <h2 class="mt-0 mb-0">945</h2>
+                        <p class="mt-0 mb-0 text-md mat-text-muted">Following</p>
+                    </div>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+    </div>
+
+
+
+</div>
